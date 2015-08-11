@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.example.ouliviamikhael.uno"
+        applicationId "com.example.ouliviamikhael.ONU"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
