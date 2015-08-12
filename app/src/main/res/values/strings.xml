@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">ONU</string>
-    <string name="login_icon">Login</string>
+    <!--<string name="app_name">ONU</string>-->
+    <string name="main_menu_icon">Menu</string>
+    <string name="ONU_icon">ONU</string>
+    <string name="new_account_icon">New Account</string>
 </resources>
