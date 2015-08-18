@@ -7,16 +7,13 @@
     <!-- Search, should appear as action button -->
     <item android:id="@+id/action_main_menu"
         android:icon="@mipmap/ic_main_menu"
+        android:orderInCategory="0"
         android:title="@string/main_menu_icon"
-        app:showAsAction="ifRoom"  />
-
-    <item android:id="@+id/action_ONU"
-        android:icon="@mipmap/ic_onu"
-        android:title="@string/ONU_icon"
-        app:showAsAction="ifRoom"  />
+        app:showAsAction="ifRoom" />
 
     <item android:id="@+id/action_new_account"
         android:icon="@mipmap/ic_new_account"
+        android:orderInCategory="2"
         android:title="@string/new_account_icon"
         app:showAsAction="ifRoom"  />
 
