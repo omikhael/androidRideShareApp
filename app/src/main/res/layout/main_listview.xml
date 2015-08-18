@@ -6,30 +6,46 @@
     tools:context=".MainActivity"
     android:clickable="false" >
 
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
         android:id="@+id/imageView"
-        android:contentDescription="@string/image"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:contentDescription="@string/image" />
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/llTextOuter"
+        android:layout_width="fill_parent"
+        android:layout_toLeftOf="@+id/imageView"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView"
-        android:paddingBottom="10dp"
-        android:textColor="#CC0033"
-        android:textSize="16dp" />
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="4dp">
 
-    <TextView
-        android:id="@+id/desc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title"
-        android:layout_alignLeft="@+id/imageView"
-        android:paddingLeft="10dp"
-        android:textColor="#3399FF"
-        android:textSize="14dp" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:singleLine="true"
+            android:textColor="#CC0033"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:textColor="#3399FF"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
 </RelativeLayout>

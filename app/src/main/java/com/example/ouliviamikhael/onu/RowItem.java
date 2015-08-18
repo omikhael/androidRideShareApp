@@ -3,6 +3,7 @@ package com.example.ouliviamikhael.onu;
 /**
  * Created by ouliviamikhael on 15-08-13.
  */
+
 public class RowItem {
     private int imageId;
     private String title;
